@@ -8,7 +8,9 @@ I have used  the below tools:
 3) django rest framework 
 4) postman test suite ( PLEASE  change the requested number on each endpoint call)
 
-**** RUN ****
+-------
+RUN
+-------
 pipenv install 
 pipenv shell
 python manage.py migrate
