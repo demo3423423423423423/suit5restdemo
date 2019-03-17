@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "36081633-91f1-48b2-86ab-b8d911357cd0",
+		"name": "TASK 3&4&5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "3",
+			"item": [
+				{
+					"name": "localhost:8000/writer/2/article/6",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:8000/writer/2/article/6",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"writer",
+								"2",
+								"article",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/writer/2/article/6",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"test234234title\",\n\"excerpt\": \"test1excerpt\",\n\"text\" : \"3333311111test1texttexttexttexttexttext\",\n\"writer\": 2\n}\n    "
+						},
+						"url": {
+							"raw": "localhost:8000/writer/2/article/6",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"writer",
+								"2",
+								"article",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/writer/2/article/6",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"test234234title\",\n\"excerpt\": \"test1excerpt\",\n\"text\" : \"3333311111test1texttexttexttexttexttext\",\n\"writer\": 2\n}\n    "
+						},
+						"url": {
+							"raw": "localhost:8000/writer/2/article/6",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"writer",
+								"2",
+								"article",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/writer/2/articles/",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"title\": \"test234dddddddddd234title\",\n\"excerpt\": \"test1excerpt\",\n\"text\" : \"test1texttexttexttexttexttext\"\n}\n    "
+						},
+						"url": {
+							"raw": "localhost:8000/writer/2/articles/",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"writer",
+								"2",
+								"articles",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/writer/2/articles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:8000/writer/2/articles",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"writer",
+								"2",
+								"articles"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "4",
+			"item": [
+				{
+					"name": "localhost:8000/writer/2/article/8/blog/3",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:8000/writer/2/article/8/blog/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"writer",
+								"2",
+								"article",
+								"8",
+								"blog",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "localhost:8000/writer/2/article/8/blog/3",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:8000/writer/2/article/8/blog/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"writer",
+								"2",
+								"article",
+								"8",
+								"blog",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "5",
+			"item": [
+				{
+					"name": "localhost:8000/blog/2/articles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "localhost:8000/blog/2/articles",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"blog",
+								"2",
+								"articles"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "69e82e83-1fe6-48cf-8cfc-d90b3d379284",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "826c8f2b-97c3-498d-8d99-97506221a8b5",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

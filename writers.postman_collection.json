@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "425f2d05-89c6-45fa-ba76-09c390906f3e",
+		"name": "writers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8000/writers/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8000/writers/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"writers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/writers/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n\"name\":\"123123123fgdfg\",\n\"age\":12343,\n\"email\":\"sdfsd@sdfsd222.com\",\n\"address\":\"5c8d0ad4487ac823c439b155\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8000/writers/",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"writers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/writer/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8000/writer/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"writer",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/writer/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8000/writer/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"writer",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8000/writer/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n\"name\":\"123123123fgdfg\",\n\"age\":3,\n\"email\":\"sdfsd@sdfsd222.com\",\n\"address\":\"5c8d0ad4487ac823c439b155\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8000/writer/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"writer",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
