@@ -8,6 +8,15 @@ autopep8 = "*"
 rope = "*"
 
 [packages]
+autopep8 = "*"
+Django = "*"
+django-filter = "*"
+djangorestframework = "*"
+Markdown = "*"
+Pillow = "*"
+pycodestyle = "*"
+pytz = "*"
+rope = "*"
 
 [requires]
 python_version = "3.7"
