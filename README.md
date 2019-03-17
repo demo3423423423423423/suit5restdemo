@@ -11,7 +11,7 @@ I have used  the below tools:
 -------
 RUN
 -------
-pipenv install 
-pipenv shell
-python manage.py migrate
-python manage.py runserver
+1) pipenv install 
+2) pipenv shell
+3) python manage.py migrate
+4) python manage.py runserver
